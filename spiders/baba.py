@@ -16,7 +16,7 @@ class AliSpider(CrawlSpider):
 	performed on that specific trademark.
 	"""
 	
-	name = "baba"
+    name = "baba"
     allowed_domains = ['alibaba.com']   
     base_url = 'http://www.alibaba.com/trade/search?fsb=y&IndexArea=product_en&CatId=&SearchText='
     with open('trademarks.csv', 'r') as infile:
